@@ -1,0 +1,38 @@
+/* Style umum untuk body dan layout */
+body {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f7fafc;
+}
+
+.main-content {
+    flex: 1;
+    transition: margin-left 0.3s ease-in-out;
+}
+
+h1, h2, h3 {
+    font-weight: 600;
+}
+
+.text-gray-600 {
+    color: #718096;
+}
+
+/* Footer */
+footer {
+    background-color: #2b6cb0;
+    padding: 1rem;
+    text-align: center;
+}
+
+footer a {
+    color: #edf2f7;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
